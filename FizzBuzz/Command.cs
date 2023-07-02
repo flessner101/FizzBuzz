@@ -26,6 +26,7 @@ namespace FizzBuzz
             Application app = uiapp.Application;
             Document doc = uidoc.Document;
 
+
             int range = 100;
             double offset = 0.05;
             double offsetCalc = offset * doc.ActiveView.Scale;
