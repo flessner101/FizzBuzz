@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command FizzBuzz</Text>
+    <Description>Some description for FizzBuzz</Description>
+    <Assembly>FizzBuzz.dll</Assembly>
+    <FullClassName>FizzBuzz.Command</FullClassName>
+    <ClientId>cfad5b09-d158-46ec-9976-b4f275387ace</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application FizzBuzz</Name>
+    <Assembly>FizzBuzz.dll</Assembly>
+    <FullClassName>FizzBuzz.App</FullClassName>
+    <ClientId>5dde040d-7a8c-436b-b47e-526f0a28ca8a</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
